@@ -1,4 +1,7 @@
 package main
 
-// Dummy subpath fixture for weft relpath-mirroring tests.
-func main() {}
+import "fmt"
+
+func main() {
+	fmt.Println(Greeting(""))
+}
