@@ -9,3 +9,8 @@ func Greeting(name string) string {
 	}
 	return "Hello, " + name + "!"
 }
+
+// ShoutGreeting returns the greeting for name upper-cased, using "world" when name is empty or whitespace.
+func ShoutGreeting(name string) string {
+	return strings.ToUpper(Greeting(name))
+}
