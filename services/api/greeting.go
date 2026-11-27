@@ -9,3 +9,8 @@ func Greeting(name string) string {
 	}
 	return "Hello, " + name + "!"
 }
+
+// ShoutGreeting returns an upper-cased greeting for name.
+func ShoutGreeting(name string) string {
+	return strings.ToUpper(Greeting(name))
+}

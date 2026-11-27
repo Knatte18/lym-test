@@ -1,2 +1,2 @@
-// Package main runs the services/api greeting executable.
+// Package main provides greeting helpers and runs the services/api greeting executable.
 package main
